@@ -91,7 +91,7 @@ def main(argv: list[str] | None = None) -> int:
         except OSError as e:
             print(f"Error: file error: {e}", file=sys.stderr)
             return 1
-        finally:
+        finally: 
             if fh is not None:
                 logger.removeHandler(fh)
                 fh.close()

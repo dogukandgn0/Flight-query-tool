@@ -5,7 +5,7 @@
 
 ## Conversation links
 
-- Link 1:
+- Link 1: https://share.gemini.google/0HoWDuSumtYk
 
 ## What I used them for
 

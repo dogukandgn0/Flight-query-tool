@@ -34,4 +34,4 @@ def parse_files(paths: list[str], airports: set[str]) -> tuple[list[dict], list[
                 seen.add(dup_key)
                 valid_rows.append(rec)
 
-    return valid_rows, err_list
+    return valid_rows, err_list 

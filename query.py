@@ -26,7 +26,7 @@ def is_num(val):
 
 def check_query(q):
     if not isinstance(q, dict):
-        return False
+        return False 
 
     for k in q:
         if k not in VALID_KEYS:

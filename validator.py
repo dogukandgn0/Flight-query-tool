@@ -27,7 +27,7 @@ def load_airports(path: str) -> set[str]:
 
 def validate_row(fields: list[str], airports: set[str]) -> str | None:
     if len(fields) != 6:
-        return "WRONG_FIELD_COUNT"
+        return "WRONG_FIELD_COUNT" 
 
     clean = [x.strip() for x in fields]
     f_id, orig, dest, dep, arr, price_s = clean
